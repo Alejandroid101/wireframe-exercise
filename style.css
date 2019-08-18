@@ -1,19 +1,22 @@
-
-/* body{
-    margin:auto;    
-} */
+*{
+    outline: dotted 1px orangered;
+}
 a{
     margin: 25px;
-    /* margin-top: auto; */
-    /* margin-bottom: auto; */
     color: aliceblue;
     font-family: 'Montserrat', sans-serif;
 
 }
+body > header > nav > a{
+    margin-top: 20px;
+}
+body > header > nav > img{
+    margin-top: 15px;
+}
 header{
     margin-left:0px;
     margin-right: 0px;
-    /* max-width: auto; */
+    max-width: auto;
 }
 
 nav {
@@ -23,44 +26,40 @@ nav {
     margin-bottom: 30px;
     height: 100px;
 }
-#only{
+main{
     margin-left: auto;
     margin-right: auto;
     max-width: 960px;;
-    /* align-content: center; */
 }
 
-.numb1, .numb2, .numb3{
+
+main > div{
     margin-top: 30px;
     float: left;
     margin-bottom: 30px;
+
 }
-.numb2{
-    margin-left: 30px;
+main > section > image> :first-child{
     margin-right: 30px;
 }
-/* main{
-    max-width: 960px;
-    float: left;
-
-} */
+main > :last-child > :last-child{
+    margin-right: 0px;
+}
 
 div{
+    margin-right: 30px;
+    margin-top: 30px;
     float: left;
+    display: block;
+}
+:nth-child(3){
+    margin-right: 0px;
 }
 
-
-footer{
-    position: absolute;
-    bottom: 0px;
-    color: grey;
-}
 #container{
     overflow:auto;
-    margin-left: 30px;
     width: 465px;
     height:  400px;
-
 }
 p{
     font-style: italic;
